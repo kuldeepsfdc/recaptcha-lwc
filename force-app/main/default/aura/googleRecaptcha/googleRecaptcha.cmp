@@ -6,8 +6,8 @@
     <aura:attribute name="requiredOnce" type="Boolean" default="false" />
     <aura:attribute name="recaptchaResponse" type="String" />
     <aura:attribute name="enableServerSideVerification" type="Boolean" default="true" />
-    <aura:attribute name="siteKey" type="String" default="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" />
-    <aura:attribute name="secretKey" type="String" default="6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe" />
+    <aura:attribute name="siteKey" type="String" default="6Lf9DrAnAAAAAGQ48PpVTcBeNkH7LTzZht2d5nrv" />
+    <aura:attribute name="secretKey" type="String" default="6Lf9DrAnAAAAAGQ48PpVTcBeNkH7LTzZht2d5nrv" />
     <aura:attribute name="allowedURLs" type="String[]" />
     <aura:attribute name="frameTitle" type="String" />
 
