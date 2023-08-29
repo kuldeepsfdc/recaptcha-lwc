@@ -6,8 +6,8 @@ public with sharing class GoogleRecaptchaHandler {
 
         allowedURLs.add(URL.getOrgDomainUrl().toExternalForm());
         allowedURLs.add(URL.getSalesforceBaseUrl().toExternalForm());
-        allowedURLs.add(URL.getOrgDomainUrl().toExternalForm().replace('.my.salesforce.com', '.lightning.force.com'));
-        allowedURLs.add(URL.getOrgDomainUrl().toExternalForm().replace('.my.salesforce.com', '--c.visualforce.com'));
+        allowedURLs.add(URL.getOrgDomainUrl().toExternalForm().replace('https://d5i00000cydq7ean-dev-ed.develop.my.salesforce.com'));
+        allowedURLs.add(URL.getOrgDomainUrl().toExternalForm().replace('https://d5i00000cydq7ean-dev-ed.develop.my.salesforce.com'));
 
         return allowedURLs;
     }
